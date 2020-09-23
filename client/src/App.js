@@ -1,7 +1,14 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Navhead from "./components/Navhead";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Navhead />
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
