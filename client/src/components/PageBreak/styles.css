@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.break-box {
+  height: 175px !important;
+  width: 100%;
+  background-color: rgb(240, 98, 146);
+}
+
+.break-box h1 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  transition: 0.3s ease;
+}
+.break-box h1:hover {
+  cursor: pointer;
+  transform: scaleY(1.05);
+  transform: scaleX(1.05);
+}

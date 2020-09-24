@@ -1,7 +1,11 @@
 import React from "react";
+import FormSubmit from "../FormSubmit";
 import "./styles.css";
 
 function Form() {
+  function submit() {
+    console.log(true);
+  }
   return (
     <form>
       <div class="box center-align">
@@ -75,6 +79,7 @@ function Form() {
             </div>
           </div>
         </div>
+        <FormSubmit submit={submit} />
       </div>
     </form>
   );

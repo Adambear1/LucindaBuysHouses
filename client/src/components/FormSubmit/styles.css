@@ -1,0 +1,28 @@
+.form-submit {
+  height: 120px;
+  background-color: rgb(240, 98, 146);
+  border-top: 0.4px solid #888888;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+}
+.form-submit button {
+  background-color: transparent;
+  border: none;
+}
+
+.material-icons {
+  margin-top: 12px;
+  color: white !important;
+  transition: 0.3s ease;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+.material-icons:active {
+  transform: scaleY(0.8);
+}
