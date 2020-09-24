@@ -6,3 +6,30 @@
   width: 275px;
   border-radius: 10px;
 }
+
+.steps-card h3,
+.steps-card h5 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0px !important;
+}
+
+#card1 {
+  background-image: url("../../assets/images/people.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card2 {
+  background-image: url("../../assets/images/contract.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card3 {
+  background-image: url("../../assets/images/agreement.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

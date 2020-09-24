@@ -7,6 +7,7 @@ import Promo from "../../components/Promo";
 import Slider from "../../components/Slider";
 import PageBreak from "../../components/PageBreak";
 import Steps from "../../components/Steps";
+import About from "../../components/About";
 
 function Home() {
   return (
@@ -28,10 +29,11 @@ function Home() {
             <Steps />
           </div>
         </div>
-        <div class="row">
-          <div class="col s12">
-            <Slider />
-          </div>
+      </div>
+      <About />
+      <div class="row">
+        <div class="col s12">
+          <Slider />
         </div>
       </div>
     </>
