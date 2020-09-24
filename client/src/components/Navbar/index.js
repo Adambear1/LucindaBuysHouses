@@ -3,8 +3,8 @@ import "./styles.css";
 import { Link } from "react-scroll";
 function Navbar() {
   return (
-    <nav>
-      <div class="nav-wrapper  grey lighten-5 navbar-wrapper">
+    <nav class="nav-bottom">
+      <div class="nav-wrapper grey lighten-5 ">
         <ul class="brand-logo center">
           <li class="tab ">
             <Link
@@ -18,7 +18,7 @@ function Navbar() {
               Sell You Home
             </Link>
           </li>
-          <li class="tab">
+          <li class="tab nav-text">
             <Link
               class="pink-text lighten-3 "
               to="test1"
@@ -30,7 +30,7 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li class="tab">
+          <li class="tab nav-text">
             <Link
               class="pink-text lighten-3 "
               to="test1"
@@ -42,7 +42,7 @@ function Navbar() {
               Testimonials
             </Link>
           </li>
-          <li class="tab disabled">
+          <li class="tab nav-text">
             <Link
               class="pink-text lighten-3 "
               to="test1"
@@ -53,9 +53,6 @@ function Navbar() {
             >
               Contact Us
             </Link>
-          </li>
-          <li class="tab">
-            <a href="#test4">Test 4</a>
           </li>
         </ul>
       </div>

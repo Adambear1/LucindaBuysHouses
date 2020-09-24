@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 
 .nav-header {
+  margin-top: 15px;
+  font-size: 60px !important;
   font-family: "Dancing Script", cursive;
+}
+
+.nav-top {
+  height: 100px !important;
 }

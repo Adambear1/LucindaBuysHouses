@@ -1,11 +1,10 @@
 import React from "react";
 import "./styles.css";
-import { Link } from "react-scroll";
 
 function Navhead() {
   return (
-    <nav>
-      <div class="nav-wrapper pink lighten-2">
+    <nav class="nav-top">
+      <div class="nav-wrapper pink lighten-2 center-align">
         <a href="#!" class="brand-logo nav-header center">
           Lucinda Buys Houses
         </a>
