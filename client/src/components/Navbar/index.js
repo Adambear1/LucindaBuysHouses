@@ -7,13 +7,16 @@ function Navbar() {
       <div class="nav-wrapper grey lighten-5 ">
         <ul class="brand-logo center">
           <li class="tab ">
-            <a class="pink-text lighten-3 modal-trigger" href="#why-modal">
+            <a
+              class="pink-text lighten-3 modal-trigger navbar-link"
+              href="#why-modal"
+            >
               Why <span class="lucinda">Lucinda</span>
             </a>
           </li>
           <li class="tab nav-text">
             <Link
-              class="pink-text lighten-3"
+              class="pink-text lighten-3 navbar-link"
               to="about"
               spy={true}
               smooth={true}
@@ -25,7 +28,7 @@ function Navbar() {
           </li>
           <li class="tab nav-text">
             <Link
-              class="pink-text lighten-3"
+              class="pink-text lighten-3 navbar-link"
               to="testimonials"
               spy={true}
               smooth={true}
@@ -37,8 +40,8 @@ function Navbar() {
           </li>
           <li class="tab nav-text">
             <Link
-              class="pink-text lighten-3 "
-              to="contact"
+              class="pink-text lighten-3 navbar-link"
+              to="footer"
               spy={true}
               smooth={true}
               offset={50}

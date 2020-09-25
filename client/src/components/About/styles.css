@@ -36,3 +36,18 @@
   padding: 0px;
   font-size: 12px;
 }
+
+.about-icon-pagination {
+  position: absolute;
+  left: 250px !important;
+  margin-top: 220px !important;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer !important;
+  /* transition: 2s ease; */
+}
+
+.about-icon-pagination:hover {
+  cursor: pointer !important;
+  /* transform: scaleY(1.1); */
+}

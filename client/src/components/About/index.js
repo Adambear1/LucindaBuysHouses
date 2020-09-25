@@ -18,6 +18,9 @@ function About() {
   };
   return (
     <div class="about-section">
+      <i class="material-icons about-icon-pagination large .swiper-button-next">
+        chevron_right
+      </i>
       <Swiper {...params}>
         <div class="card card-box">
           <h5>

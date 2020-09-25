@@ -1,20 +1,21 @@
 import React, { useEffect } from "react";
-// styles
-import "./styles.css";
+
 // utils
+import "./styles.css";
 import M from "materialize-css";
+
 function Modal() {
   useEffect(() => {
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".modal");
       var instances = M.Modal.init(elems);
     });
-  });
+  }, []);
   return (
-    <div id="why-modal" class="modal" style={{ height: 450 }}>
-      <div class="modal-content">
+    <div id="why-modal" className="modal" style={{ height: 450 }}>
+      <div className="modal-content">
         <h4>
-          <span class="lucinda">Lucinda</span>'s Promise....
+          <span className="lucinda">Lucinda</span>'s Promise....
         </h4>
         <ul>
           <li>
@@ -22,7 +23,7 @@ function Modal() {
               Walk Away With <b>AT LEAST</b>{" "}
               <b>
                 <u>
-                  <span class="about-money">$10k</span>
+                  <span className="about-money">$10k</span>
                 </u>
               </b>{" "}
               more in pocket than any other offer! How? Because Lucinda buys
@@ -49,9 +50,9 @@ function Modal() {
           </li>
         </ul>
       </div>
-      <div class="modal-footer">
+      <div className="modal-footer">
         <div>
-          <i class="material-icons modal-icon medium modal-close">
+          <i className="material-icons modal-icon medium modal-close">
             exit_to_app
           </i>
         </div>

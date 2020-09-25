@@ -1,52 +1,79 @@
 import React from "react";
+// utils
+import "./styles.css";
+import { Link } from "react-scroll";
+// components
 import FooterSocialMedia from "../FooterSocialMedia";
 
 function Footer() {
   return (
-    <footer class="page-footer white">
+    <footer class="page-footer white" id="footer">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <h2 class="pink-text lighten-3 ">
-              <span class="lucinda" style={{ font: 100 }}>
-                Lucinda Buys Houses
-              </span>
+          <div class="col s12 l6 ">
+            <h2 class="lucinda pink-text lighten-3 lucinda-footer">
+              Lucinda Buys Houses
             </h2>
           </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li>
-                <a class="pink-text lighten-3" href="#!">
-                  Link 1
-                </a>
-              </li>
-              <li>
-                <a class="pink-text lighten-3" href="#!">
-                  Link 2
-                </a>
-              </li>
-              <li>
-                <a class="pink-text lighten-3" href="#!">
-                  Link 3
-                </a>
-              </li>
-              <li>
-                <a class="pink-text lighten-3" href="#!">
-                  Link 4
-                </a>
-              </li>
-            </ul>
+          <div class="col s12 l6 ">
+            <FooterSocialMedia />
           </div>
         </div>
       </div>
       <div class="footer-copyright">
-        <div class="container pink-text lighten-3">
-          © 2020 Quality Creations LLC
-          <a class="pink-text lighten-3 right" href="#!">
-            <FooterSocialMedia />
-          </a>
+        <div class="container">
+          <div class="pink-text lighten-3 offset-l2 footer-header">
+            <div class="row center-align">
+              <div class="col s12">
+                <ul class="footer-ul align-center ">
+                  <li class="footer-links">
+                    <a
+                      class="pink-text lighten-3 modal-trigger"
+                      href="#why-modal"
+                    >
+                      Why <span class="lucinda">Lucinda</span>
+                    </a>
+                  </li>
+                  <li class="pink-text lighten-3  footer-links">
+                    <Link
+                      class="pink-text lighten-3"
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                    >
+                      About
+                    </Link>
+                  </li>
+                  <li class="footer-links">
+                    <Link
+                      class="pink-text lighten-3 navbar-link"
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                    >
+                      Testimonials
+                    </Link>
+                  </li>
+                  <li class="footer-links">
+                    <Link
+                      class="pink-text lighten-3 navbar-link"
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                    >
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
