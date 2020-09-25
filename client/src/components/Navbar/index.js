@@ -10,6 +10,7 @@ function Navbar() {
             <a
               class="pink-text lighten-3 modal-trigger navbar-link"
               href="#why-modal"
+              data-target="modal"
             >
               Why <span class="lucinda">Lucinda</span>
             </a>

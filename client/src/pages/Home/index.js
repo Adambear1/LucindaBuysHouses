@@ -10,6 +10,7 @@ import PageBreak from "../../components/PageBreak";
 import Steps from "../../components/Steps";
 import About from "../../components/About";
 import Modal from "../../components/Modal";
+import Testimonials from "../../components/Testimonials";
 
 function Home() {
   return (
@@ -35,6 +36,11 @@ function Home() {
             <Steps />
           </div>
         </div>
+        {/* <div class="row">
+          <div class="col s12">
+            <Testimonials />
+          </div>
+        </div> */}
       </div>
       <About />
     </>

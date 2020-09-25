@@ -26,7 +26,7 @@ function Footer() {
             <div class="row center-align">
               <div class="col s12">
                 <ul class="footer-ul align-center ">
-                  <li class="footer-links">
+                  <li class="footer-links pink-text lighten-3">
                     <a
                       class="pink-text lighten-3 modal-trigger"
                       href="#why-modal"
@@ -34,7 +34,7 @@ function Footer() {
                       Why <span class="lucinda">Lucinda</span>
                     </a>
                   </li>
-                  <li class="pink-text lighten-3  footer-links">
+                  <li class="pink-text lighten-3  footer-links pink-text lighten-3">
                     <Link
                       class="pink-text lighten-3"
                       to="about"
@@ -46,9 +46,9 @@ function Footer() {
                       About
                     </Link>
                   </li>
-                  <li class="footer-links">
+                  <li class="footer-links pink-text lighten-3">
                     <Link
-                      class="pink-text lighten-3 navbar-link"
+                      class="pink-text lighten-3"
                       to="about"
                       spy={true}
                       smooth={true}
@@ -58,9 +58,9 @@ function Footer() {
                       Testimonials
                     </Link>
                   </li>
-                  <li class="footer-links">
+                  <li class="footer-links pink-text lighten-3">
                     <Link
-                      class="pink-text lighten-3 navbar-link"
+                      class="pink-text lighten-3"
                       to="about"
                       spy={true}
                       smooth={true}
