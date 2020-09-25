@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.modal-content h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+.about-money {
+  color: rgb(240, 98, 146);
+}
+
+.modal-icon {
+  margin-right: 30px !important;
+  margin-bottom: 30px !important;
+  color: rgb(240, 98, 146) !important;
+}
+.modal-icon:hover {
+  cursor: pointer;
+}

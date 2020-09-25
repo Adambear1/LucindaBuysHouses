@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 
+.lucinda,
+.nav-header {
+  font-family: "Dancing Script", cursive;
+}
+
 .nav-header {
   margin-top: 15px;
   font-size: 60px !important;

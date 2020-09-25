@@ -3,7 +3,7 @@ import "./styles.css";
 
 function Steps() {
   return (
-    <div class="row row-steps">
+    <div class="row row-steps" id="about">
       <div class="col s12 m4">
         <div class="card steps-card center-align" id="card1">
           <h3>Step 1</h3>

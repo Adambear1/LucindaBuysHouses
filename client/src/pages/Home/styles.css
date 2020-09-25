@@ -2,3 +2,19 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+video {
+  margin-left: 0px !important;
+  opacity: 90%;
+  position: absolute;
+  height: 856px;
+  width: 100%;
+  right: 0;
+  z-index: -10;
+  top: 165px;
+  overflow: hidden;
+}
+
+video source {
+  width: 100%;
+}
