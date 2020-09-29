@@ -11,9 +11,7 @@ function Footer() {
       <div class="container">
         <div class="row">
           <div class="col s12 l6 ">
-            <h2 class="lucinda pink-text lighten-3 lucinda-footer">
-              Lucinda Buys Houses
-            </h2>
+            <h2 class="lucinda lucinda-footer">Lucinda Buys Houses</h2>
           </div>
           <div class="col s12 l6 ">
             <FooterSocialMedia />
@@ -22,21 +20,18 @@ function Footer() {
       </div>
       <div class="footer-copyright">
         <div class="container">
-          <div class="pink-text lighten-3 offset-l2 footer-header">
+          <div class="offset-l2 footer-header">
             <div class="row center-align">
               <div class="col s12">
                 <ul class="footer-ul align-center ">
-                  <li class="footer-links pink-text lighten-3">
-                    <a
-                      class="pink-text lighten-3 modal-trigger"
-                      href="#why-modal"
-                    >
+                  <li class="footer-links footer-link">
+                    <a class="modal-trigger footer-link" href="#modal">
                       Why <span class="lucinda">Lucinda</span>
                     </a>
                   </li>
-                  <li class="pink-text lighten-3  footer-links pink-text lighten-3">
+                  <li class="footer-links footer-link">
                     <Link
-                      class="pink-text lighten-3"
+                      class="footer-link"
                       to="about"
                       spy={true}
                       smooth={true}
@@ -46,9 +41,9 @@ function Footer() {
                       About
                     </Link>
                   </li>
-                  <li class="footer-links pink-text lighten-3">
+                  <li class="footer-links footer-link">
                     <Link
-                      class="pink-text lighten-3"
+                      class="footer-link"
                       to="about"
                       spy={true}
                       smooth={true}
@@ -58,9 +53,9 @@ function Footer() {
                       Testimonials
                     </Link>
                   </li>
-                  <li class="footer-links pink-text lighten-3">
+                  <li class="footer-links footer-link">
                     <Link
-                      class="pink-text lighten-3"
+                      class="footer-link"
                       to="about"
                       spy={true}
                       smooth={true}

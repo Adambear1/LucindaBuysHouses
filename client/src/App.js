@@ -1,5 +1,6 @@
 import React, { Suspense, lazy, useState, useEffect } from "react";
 import Loader from "./components/Loader";
+import Modal from "./components/Modal";
 import "./styles.css";
 const Navbar = lazy(() => import("./components/Navbar"));
 const Navhead = lazy(() => import("./components/Navhead"));
@@ -34,7 +35,9 @@ function App() {
         <>
           <Navhead />
           <Navbar />
+          <Modal />
           <Home />
+
           <Footer />
         </>
         {/* )} */}

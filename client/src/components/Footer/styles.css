@@ -1,3 +1,6 @@
+.footer-copyright {
+  height: 10px !important;
+}
 .footer-links {
   font-size: 15px;
   display: inline !important;
@@ -10,7 +13,8 @@
   color: rgb(240, 98, 146) !important;
   cursor: pointer;
 }
-.footer-ul {
+.footer-ul,
+.footer-link {
   color: rgb(240, 98, 146) !important;
   /* width: 100% !important; */
 }

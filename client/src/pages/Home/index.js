@@ -9,7 +9,6 @@ import Promo from "../../components/Promo";
 import PageBreak from "../../components/PageBreak";
 import Steps from "../../components/Steps";
 import About from "../../components/About";
-import Modal from "../../components/Modal";
 import Testimonials from "../../components/Testimonials";
 
 function Home() {
@@ -20,7 +19,6 @@ function Home() {
           <video autoplay="true" muted="true" loop="true" id="myVideo">
             <source src={video} type="video/mp4" />
           </video>
-          <Modal />
           <div class="col m12 l6">
             <Promo />
           </div>

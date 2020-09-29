@@ -8,16 +8,16 @@ function Navbar() {
         <ul class="brand-logo center">
           <li class="tab ">
             <a
-              class="pink-text lighten-3 modal-trigger navbar-link"
-              href="#why-modal"
-              data-target="modal"
+              class="modal-trigger navbar-link"
+              href="#modal"
+              // data-target="modal"
             >
               Why <span class="lucinda">Lucinda</span>
             </a>
           </li>
-          <li class="tab nav-text">
+          <li class="tab navbar-link nav-text">
             <Link
-              class="pink-text lighten-3 navbar-link"
+              class="navbar-link"
               to="about"
               spy={true}
               smooth={true}
@@ -27,9 +27,9 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li class="tab nav-text">
+          <li class="tab navbar-link nav-text">
             <Link
-              class="pink-text lighten-3 navbar-link"
+              class="navbar-link"
               to="testimonials"
               spy={true}
               smooth={true}
@@ -39,9 +39,9 @@ function Navbar() {
               Testimonials
             </Link>
           </li>
-          <li class="tab nav-text">
+          <li class="tab navbar-link nav-text">
             <Link
-              class="pink-text lighten-3 navbar-link"
+              class="navbar-link"
               to="footer"
               spy={true}
               smooth={true}

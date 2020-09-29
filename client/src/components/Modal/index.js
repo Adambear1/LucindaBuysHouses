@@ -12,7 +12,7 @@ function Modal() {
     });
   }, []);
   return (
-    <div id="why-modal" className="modal" style={{ height: 450 }}>
+    <div id="modal" className="modal" style={{ height: 450 }}>
       <div className="modal-content">
         <h4>
           <span className="lucinda">Lucinda</span>'s Promise....
