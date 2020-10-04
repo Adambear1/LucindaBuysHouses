@@ -3,7 +3,7 @@ import "./styles.css";
 import { Link } from "react-scroll";
 function Navbar() {
   return (
-    <nav class="nav-bottom">
+    <nav class="nav-bottom animate__animated  animate__fadeIn">
       <div class="nav-wrapper grey lighten-5 ">
         <ul class="brand-logo center">
           <li class="tab ">

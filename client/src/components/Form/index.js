@@ -7,7 +7,7 @@ function Form() {
     console.log(true);
   }
   return (
-    <form>
+    <form class="animate__animated  animate__fadeInBottomRight" id="offer">
       <div class="box center-align">
         <div class="row">
           <div class="col 12">

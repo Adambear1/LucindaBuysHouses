@@ -3,7 +3,7 @@ import "./styles.css";
 
 function Promo() {
   return (
-    <div>
+    <div class="animate__animated  animate__fadeInBottomLeft">
       <div class="box">
         <div class="center-align">
           <h2>I Buy Houses</h2>

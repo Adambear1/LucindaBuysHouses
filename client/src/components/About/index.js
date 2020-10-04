@@ -39,7 +39,10 @@ function About() {
       <div class="row">
         <div class="col s12">
           <Swiper {...params}>
-            <div class="card card-box" id="first-card">
+            <div
+              class="card card-box animate__animated animate__bounceIn"
+              id="first-card"
+            >
               <h5>
                 Lucinda has directly helped over 30 families these past two
                 years avoid foreclosure, fight off banks, save credit, all
@@ -49,7 +52,7 @@ function About() {
                 us today!
               </h5>
             </div>
-            <div class="card card-box">
+            <div class="card card-box animate__animated animate__bounceIn">
               <h5>
                 Almost every client Lucinda has been able to help has pocketed
                 at minimum $10k (!) after closing. Lucinda takes great pride in
@@ -60,7 +63,7 @@ function About() {
                 <a href="#form">Here!</a>
               </h5>
             </div>
-            <div class="card card-box">
+            <div class="card card-box animate__animated animate__bounceIn">
               <h5>
                 No commissions, hidden fees, realtors, inspections, or
                 headaches! Through completing over 30 successful transactions
@@ -68,7 +71,7 @@ function About() {
                 process as seemless as possible.
               </h5>
             </div>
-            <div class="card card-box ">
+            <div class="card card-box animate__animated animate__bounceIn">
               <h5 class="about-qa">
                 Lucinda is dynamic in trade and can offer many services to best
                 fit your situation!
@@ -106,7 +109,10 @@ function About() {
                 </ul>
               </h5>
             </div>
-            <div class="card card-box" id="last-card">
+            <div
+              class="card card-box animate__animated animate__bounceIn"
+              id="last-card "
+            >
               <h5>
                 Lucinda values ethics. When it comes to money and houses, she
                 has seen first-hand agents and mortgage companies take advantage
@@ -114,7 +120,10 @@ function About() {
                 those who fall prey and help get them back on their feet.
               </h5>
             </div>
-            <div class="card card-box" id="first-card">
+            <div
+              class="card card-box animate__animated animate__bounceIn"
+              id="first-card"
+            >
               <h5>
                 This company that Lucinda has created has big visions to help
                 revolutionize the Real Estate industry. By replacing Realtors,

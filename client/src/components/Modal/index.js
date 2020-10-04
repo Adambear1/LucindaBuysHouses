@@ -11,6 +11,7 @@ function Modal() {
       var instances = M.Modal.init(elems);
     });
   }, []);
+
   return (
     <div id="modal" className="modal" style={{ height: 450 }}>
       <div className="modal-content">
@@ -27,8 +28,8 @@ function Modal() {
                 </u>
               </b>{" "}
               more in pocket than any other offer! How? Because Lucinda buys
-              property directly and does not excess money in marketing, she can{" "}
-              <i>guarantee</i> full value for property.
+              property directly and does not spend excess money in marketing,
+              she can <i>guarantee</i> full value for property.
             </p>
           </li>
           <li>
@@ -45,7 +46,22 @@ function Modal() {
               record of preventing foreclosures, working with Title and Escrow
               companies, and closing on dozens of their own homes, personally.
               everything is taken serious in her operations and assures that the
-              entire process is nothing but the best for both parties.
+              entire process is nothing but the best for both parties. If for
+              whatever reason you are unsatisfied with Lucinda's work, please
+              never hesitate to contact her DIRECTLY to get the issue resolved.
+            </p>
+          </li>
+          <li>
+            <p>
+              Want to see how much your property is worth today? Click{" "}
+              <b>
+                <i>
+                  <a href="#offer" class="modal-close">
+                    here
+                  </a>
+                </i>
+              </b>{" "}
+              for a <b>FREE</b> cash offer!
             </p>
           </li>
         </ul>
