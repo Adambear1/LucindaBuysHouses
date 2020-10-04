@@ -33,3 +33,9 @@
   background-size: cover;
   background-position: center;
 }
+
+@media (max-width: 415px) {
+  .steps-card {
+    margin-left: 100px;
+  }
+}

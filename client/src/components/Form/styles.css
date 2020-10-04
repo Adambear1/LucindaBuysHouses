@@ -30,3 +30,12 @@
 .row .input-field .material-icons {
   color: black !important;
 }
+
+@media (max-width: 415px) {
+  #offer {
+    margin-top: 50px;
+  }
+  .box {
+    width: 500px;
+  }
+}

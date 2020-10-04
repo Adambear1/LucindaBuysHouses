@@ -16,3 +16,9 @@
   transform: scaleY(1.05);
   transform: scaleX(1.05);
 }
+
+@media (max-width: 415px) {
+  .break-box {
+    width: 120%;
+  }
+}

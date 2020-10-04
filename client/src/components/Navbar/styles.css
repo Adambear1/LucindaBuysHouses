@@ -41,6 +41,17 @@
     /* padding-left: 100px; */
   }
 }
+
+@media (max-width: 415px) {
+  html {
+    width: 120%;
+  }
+  .nav-bottom-ul {
+    width: 110% !important;
+    margin-left: 70px !important;
+    /* padding-left: 100px; */
+  }
+}
 @media (max-width: 396px) {
   .nav-bottom-ul {
     width: 110% !important;
