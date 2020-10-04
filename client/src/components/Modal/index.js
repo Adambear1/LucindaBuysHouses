@@ -66,12 +66,10 @@ function Modal() {
           </li>
         </ul>
       </div>
-      <div className="modal-footer">
-        <div>
-          <i className="material-icons modal-icon medium modal-close">
-            exit_to_app
-          </i>
-        </div>
+      <div className="modal-footer offset-m1">
+        <i className="material-icons modal-icon medium modal-close pink-text text-lighten-2">
+          exit_to_app
+        </i>
       </div>
     </div>
   );

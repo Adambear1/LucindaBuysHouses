@@ -2,3 +2,56 @@
 .navbar-link {
   color: rgb(240, 98, 146) !important;
 }
+
+@media (max-width: 748px) {
+  .nav-bottom-ul {
+    width: 110% !important;
+    margin-left: 210px;
+    /* padding-left: 100px; */
+  }
+}
+@media (max-width: 559px) {
+  .nav-bottom-ul {
+    width: 110% !important;
+    margin-left: 145px;
+    /* padding-left: 100px; */
+  }
+}
+@media (max-width: 553px) {
+  .nav-bottom-ul {
+    width: 110% !important;
+    margin-left: 185px;
+    /* padding-left: 100px; */
+  }
+  .nav-bottom-ul li a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 510px) {
+  .nav-bottom-ul {
+    width: 110% !important;
+    margin-left: 120px;
+    /* padding-left: 100px; */
+  }
+}
+@media (max-width: 499px) {
+  .nav-bottom-ul {
+    width: 110% !important;
+    margin-left: 100px;
+    /* padding-left: 100px; */
+  }
+}
+@media (max-width: 396px) {
+  .nav-bottom-ul {
+    width: 110% !important;
+    margin-left: 80px;
+    /* padding-left: 100px; */
+  }
+}
+@media (max-width: 308px) {
+  .nav-bottom-ul {
+    width: 110% !important;
+    margin-left: 25px;
+    /* padding-left: 100px; */
+  }
+}

@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav class="nav-bottom animate__animated  animate__fadeIn">
       <div class="nav-wrapper grey lighten-5 ">
-        <ul class="brand-logo center">
+        <ul class="brand-logo center nav-bottom-ul">
           <li class="tab ">
             <a
               class="modal-trigger navbar-link"

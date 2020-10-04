@@ -12,5 +12,33 @@
 }
 
 .nav-top {
-  height: 100px !important;
+  height: 100px;
+}
+
+@media (max-width: 935px) {
+  .nav-top {
+    height: 170px !important;
+  }
+}
+@media (max-width: 707px) {
+  .nav-top {
+    height: 160px !important;
+  }
+}
+@media (max-width: 499px) {
+  .nav-top {
+    height: 190px !important;
+  }
+}
+@media (max-width: 415px) {
+  .nav-top {
+    width: 100% !important;
+  }
+  .nav-header {
+    margin-left: -10px;
+  }
+  .nav-bottom-ul {
+    left: 0px;
+    margin-left: 300px !important;
+  }
 }
