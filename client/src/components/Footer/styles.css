@@ -32,3 +32,15 @@
   color: rgb(240, 98, 146) !important;
   margin-top: -30px;
 }
+
+@media (max-width: 415px) {
+  .page-footer {
+    width: 100%;
+  }
+  .lucinda-footer {
+    margin-left: -20px;
+  }
+  .social-icons {
+    margin-left: -40px;
+  }
+}

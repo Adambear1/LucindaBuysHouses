@@ -19,6 +19,11 @@
 
 @media (max-width: 415px) {
   .break-box {
-    width: 120%;
+    width: 100%;
+    height: 80px !important;
+  }
+  .break-box h1,
+  .break-box i {
+    font-size: 40px;
   }
 }

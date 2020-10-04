@@ -64,6 +64,9 @@
 
 @media (max-width: 415px) {
   .about-section {
-    width: 110%;
+    width: 100%;
+  }
+  .about-section h5 {
+    font-size: 15px;
   }
 }

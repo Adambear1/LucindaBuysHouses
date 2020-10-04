@@ -32,10 +32,14 @@
 }
 
 @media (max-width: 415px) {
-  #offer {
+  .box {
+    margin-left: -25px;
+    width: 400px;
+  }
+  #form {
     margin-top: 50px;
   }
-  .box {
-    width: 500px;
+  html {
+    /* width: 90% !important; */
   }
 }
