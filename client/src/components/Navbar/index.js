@@ -18,6 +18,18 @@ function Navbar() {
           <li class="tab navbar-link nav-text">
             <Link
               class="navbar-link"
+              to="form"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Sell Now!
+            </Link>
+          </li>
+          <li class="tab navbar-link nav-text">
+            <Link
+              class="navbar-link"
               to="about"
               spy={true}
               smooth={true}
@@ -27,18 +39,7 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li class="tab navbar-link nav-text">
-            <Link
-              class="navbar-link"
-              to="testimonials"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              Testimonials
-            </Link>
-          </li>
+
           <li class="tab navbar-link nav-text">
             <Link
               class="navbar-link"
