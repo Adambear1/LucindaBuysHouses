@@ -13,8 +13,9 @@
 }
 .break-box h1:hover {
   cursor: pointer;
-  transform: scaleY(1.05);
-  transform: scaleX(1.05);
+  color: rgb(60, 255, 0);
+  transform: scaleY(0.95);
+  transform: scaleX(0.95);
 }
 
 @media (max-width: 415px) {

@@ -8,10 +8,10 @@ function Form() {
   }
   return (
     <form class="animate__animated  animate__fadeInBottomRight" id="offer">
-      <div class="box center-align">
+      <div class="box ">
         <div class="row">
           <div class="col 12">
-            <h2 class="center-align form-header">
+            <h2 class=" form-header">
               <u>
                 <b>FREE</b>
               </u>{" "}

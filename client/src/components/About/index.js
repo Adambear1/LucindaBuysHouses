@@ -18,19 +18,19 @@ function About() {
     breakpoints: {
       1024: {
         slidesPerView: 4,
-        spaceBetween: 40,
+        spaceBetween: 30,
       },
       768: {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 20,
       },
       415: {
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween: 5,
       },
       320: {
         slidesPerView: 1,
-        spaceBetween: 10,
+        spaceBetween: 2,
       },
     },
   };

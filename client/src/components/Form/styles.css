@@ -37,9 +37,10 @@
     width: 400px;
   }
   #form {
-    margin-top: 50px;
+    margin-top: 50px !important;
   }
-  html {
-    /* width: 90% !important; */
+  #form .row,
+  #form input {
+    margin-left: -30px;
   }
 }
