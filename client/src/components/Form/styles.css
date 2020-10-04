@@ -44,3 +44,35 @@
     margin-left: -30px;
   }
 }
+@media (max-width: 415px) {
+  .box {
+    width: 415px;
+    padding: 10px !important;
+    padding-left: -70px;
+  }
+
+  .form-column,
+  .input-field {
+    margin-left: -40px;
+  }
+  .form-header {
+    width: 300px;
+    margin-left: 15px !important;
+  }
+  .form-header-i,
+  .form-under-text {
+    margin-left: -45px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .box {
+    width: 355px;
+    padding: 10px !important;
+    padding-left: -70px;
+  }
+  /* .form-submit {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  } */
+}

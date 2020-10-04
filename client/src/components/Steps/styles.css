@@ -39,3 +39,8 @@
     margin-left: 50px;
   }
 }
+@media (max-width: 376px) {
+  .steps-card {
+    margin-left: 20px;
+  }
+}

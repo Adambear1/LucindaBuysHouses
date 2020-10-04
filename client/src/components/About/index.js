@@ -9,11 +9,14 @@ import "swiper/swiper.less";
 function About() {
   const params = {
     slidesPerView: 5,
-    spaceBetween: 50,
     pagination: {
       el: ".swiper-pagination",
-      clickable: true,
       type: "bullets",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
     breakpoints: {
       1024: {

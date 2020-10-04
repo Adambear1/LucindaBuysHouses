@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+.swiper-container {
+  height: 600px !important;
+}
+
 .about-section {
   height: 550px !important;
   background-color: rgb(240, 98, 146);
@@ -72,5 +76,10 @@
   }
   .about-section h5 {
     font-size: 15px;
+    margin-top: -15px;
+  }
+
+  .swiper-container {
+    height: 350px !important;
   }
 }

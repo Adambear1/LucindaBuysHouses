@@ -44,3 +44,19 @@
     margin-left: -40px;
   }
 }
+
+@media (max-width: 376px) {
+  .page-footer {
+    width: 350px !important;
+    margin-bottom: 75px;
+  }
+  .lucinda-footer {
+    margin-left: 37px;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .social-icons {
+    margin-left: 10px;
+    margin-top: 0px !important;
+  }
+}
