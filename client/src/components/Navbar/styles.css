@@ -43,9 +43,9 @@
 }
 
 @media (max-width: 415px) {
-  html {
+  /* html {
     width: 100%;
-  }
+  } */
   .nav-bottom-ul {
     width: 110% !important;
     margin-left: 70px !important;

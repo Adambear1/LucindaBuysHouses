@@ -8,39 +8,39 @@ const Home = lazy(() => import("./pages/Home"));
 const Footer = lazy(() => import("./components/Footer"));
 
 function App() {
-  // const [loading, setLoading] = useState(false);
-  // useEffect(() => {
-  //   switch (document.readyState) {
-  //     case "loading":
-  //       setLoading(true);
-  //     case "interactive":
-  //       setLoading(true);
-  //     case "complete":
-  //       setTimeout(() => {
-  //         setLoading(false);
-  //       }, 2300);
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    switch (document.readyState) {
+      case "loading":
+        setLoading(true);
+      case "interactive":
+        setLoading(true);
+      case "complete":
+        setTimeout(() => {
+          setLoading(false);
+        }, 2300);
 
-  //     default:
-  //       setTimeout(() => {
-  //         setLoading(false);
-  //       }, 2300);
-  //   }
-  // }, [document.readyState]);
+      default:
+        setTimeout(() => {
+          setLoading(false);
+        }, 2300);
+    }
+  }, [document.readyState]);
   return (
     <>
       <Suspense fallback={<Loader />}>
-        {/* {loading ? ( */}
-        {/* <Loader /> */}
-        {/* ) : ( */}
-        <>
-          <Navhead />
-          <Navbar />
-          <Modal />
-          <Home />
+        {loading ? (
+          <Loader />
+        ) : (
+          <>
+            <Navhead />
+            <Navbar />
+            <Modal />
+            <Home />
 
-          <Footer />
-        </>
-        {/* )} */}
+            <Footer />
+          </>
+        )}
       </Suspense>
     </>
   );

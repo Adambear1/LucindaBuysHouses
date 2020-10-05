@@ -1,0 +1,29 @@
+html {
+  width: 100% !important;
+}
+@media (max-width: 1024px) {
+  html {
+    height: 3190px;
+  }
+}
+@media (max-width: 769px) {
+  html {
+    height: 3590px;
+  }
+}
+
+@media (max-width: 745px) {
+  #root {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 376px) {
+  html {
+    height: 2090px;
+  }
+  #root {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
