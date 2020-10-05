@@ -11,10 +11,17 @@
 .form-submit i {
   background-color: transparent;
   border: none;
-  margin-left: center !important;
-  margin-right: center !important;
+  margin-left: 205px !important;
 }
 
+button,
+button:focus,
+button:active,
+button:visited {
+  border: none;
+  color: transparent;
+  background-color: transparent;
+}
 .material-icons {
   margin-top: 12px;
   color: white !important;

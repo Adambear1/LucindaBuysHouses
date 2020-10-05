@@ -25,6 +25,11 @@
   color: black !important;
 }
 
+.show-h5 {
+  color: rgb(240, 98, 146) !important;
+  text-align: center;
+}
+
 @media (max-width: 995px) {
   .form-header,
   .form-under-text p,

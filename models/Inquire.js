@@ -4,14 +4,6 @@ const InquireSchema = mongoose.Schema({
     type: String,
     required: [true, "Address Required"],
   },
-  city: {
-    type: String,
-    required: [true, "City Required"],
-  },
-  county: {
-    type: String,
-    required: [true, "County Required"],
-  },
   name: {
     type: String,
     required: [true, "Name Required"],

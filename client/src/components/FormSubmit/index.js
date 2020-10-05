@@ -3,10 +3,12 @@ import "./styles.css";
 
 function FormSubmit(props) {
   return (
-    <div class="form-submit" onClick={props.submit}>
-      <i class="large material-icons center-align" title="Submit">
-        loyalty
-      </i>
+    <div class="form-submit">
+      <button type="submit" onSubmit={props.submit}>
+        <i class="large material-icons center-align center" title="Submit">
+          loyalty
+        </i>
+      </button>
     </div>
   );
 }

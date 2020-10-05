@@ -53,11 +53,25 @@ video source {
     width: 110%;
   }
 }
+@media (max-width: 1004px) {
+  video {
+    top: 0px;
+    height: 165% !important;
+    width: 110%;
+  }
+}
 
 @media (max-width: 995px) {
   video {
     top: 0px;
     height: 265% !important;
+    width: 110%;
+  }
+}
+@media (max-width: 935px) {
+  video {
+    top: 0px;
+    height: 275% !important;
     width: 110%;
   }
 }
@@ -72,6 +86,13 @@ video source {
   video {
     top: 0px;
     height: 175% !important;
+    width: 110%;
+  }
+}
+@media (max-width: 756px) {
+  video {
+    top: 0px;
+    height: 295% !important;
     width: 110%;
   }
 }

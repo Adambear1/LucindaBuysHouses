@@ -9,7 +9,9 @@
   cursor: pointer;
 }
 
-.footer-links:hover {
+.footer-links:hover,
+.footer-links:focus,
+.footer-links:active {
   color: rgb(240, 98, 146) !important;
   cursor: pointer;
 }
@@ -20,6 +22,13 @@
 }
 .footer-links:nth-child(1) {
   /* margin-left: 40px; */
+}
+
+a,
+a:active,
+a:hover,
+a:focus {
+  color: rgb(240, 98, 146) !important;
 }
 
 .lucinda-footer {

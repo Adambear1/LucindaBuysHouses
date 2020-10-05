@@ -1,7 +1,7 @@
 require("dotenv").config();
 const nodemailer = require("nodemailer");
 
-module.exports.foreclosure = function (data) {
+module.exports.email = function (data) {
   //Email
   var transporter = nodemailer.createTransport({
     service: "Gmail",
@@ -12,9 +12,13 @@ module.exports.foreclosure = function (data) {
   });
   let mailOptions = {
     from: process.env.EMAIL, // TODO: email sender
-    to: data.email, // TODO: email receiver
-    subject: `${data.address}`,
-    html: ``,
+    to: process.env.EMAIL, // TODO: email receiver
+    subject: `NEW INQUIRE: ${data.address}`,
+    html: `
+    NAME: ${data.name}
+    EMAIL: ${data.email}
+    PHONE: ${data.phoneNumber}
+    ADDRESS: ${data.address}`,
   };
   transporter.sendMail(mailOptions, (err, data) => {
     if (err) {
